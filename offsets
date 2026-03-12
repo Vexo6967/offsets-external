@@ -3,7 +3,7 @@
 // seraphic on top <3
 
 namespace offsets {
-    const uintptr_t EnableLoadModule = GETITYOURSELF! (We wont support other externals that much)
+    const uintptr_t EnableLoadModule = 0x7b51af8;  // FFlag btw
     inline constexpr uintptr_t Adornee = 0x108;
     inline constexpr uintptr_t Anchored = 0x1AE;
     inline constexpr uintptr_t AnchoredMask = 0x2;
