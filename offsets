@@ -3,7 +3,7 @@
 // seraphic on top <3
 
 namespace offsets {
-    const uintptr_t EnableLoadModule = 0x78fad38; // not updated
+    const uintptr_t EnableLoadModule = GETITYOURSELF! (We wont support other externals that much)
     inline constexpr uintptr_t Adornee = 0x108;
     inline constexpr uintptr_t Anchored = 0x1AE;
     inline constexpr uintptr_t AnchoredMask = 0x2;
