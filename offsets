@@ -3,7 +3,6 @@
 // seraphic on top <3
 
 namespace offsets {
-    const uintptr_t EnableLoadModule = 0x7b51af8;  // FFlag btw
     inline constexpr uintptr_t Adornee = 0x108;
     inline constexpr uintptr_t Anchored = 0x1AE;
     inline constexpr uintptr_t AnchoredMask = 0x2;
@@ -176,11 +175,4 @@ namespace offsets {
     inline constexpr uintptr_t Workspace = 0x178;
     inline constexpr uintptr_t WorkspaceToWorld = 0x3E0;
     inline constexpr uintptr_t viewmatrix = 0x140;
-    namespace userdata {
-        constexpr uint64_t identity = 0x30; // not updated
-        constexpr uint64_t capabilities = 0x50; // not updated
-    }
-    namespace lua_State {
-        constexpr uint64_t userdata = 0x8; // not updated
-    }
 }
